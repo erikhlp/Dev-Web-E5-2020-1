@@ -16,7 +16,12 @@ CREATE TABLE pessoa(
     anoEscolar VARCHAR(10) NOT NULL,
     turma VARCHAR(10) NOT NULL,
     perfilEscola VARCHAR(10) NOT NULL,
-    resultado VARCHAR(10) NOT NULL,
+    resultadoR VARCHAR(10) NOT NULL,
+    resultadoI VARCHAR(10) NOT NULL,
+    resultadoA VARCHAR(10) NOT NULL,
+    resultadoS VARCHAR(10) NOT NULL,
+    resultadoE VARCHAR(10) NOT NULL,
+    resultadoC VARCHAR(10) NOT NULL,
 
 
     PRIMARY KEY (id)
